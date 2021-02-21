@@ -1,0 +1,73 @@
+{
+  "students_per_class" : 20,
+  "number_classes" : 6,
+  "main_subjects" : [
+    {
+      "name" : "Mathématiques",
+      "number_marks" : 3,
+      "begins_to" : 6
+    },
+    {
+      "name" : "Français",
+      "number_marks" : 3,
+      "begins_to" : 6
+    },
+    {
+      "name" : "Anglais",
+      "number_marks" : 3,
+      "begins_to" : 6
+    },
+    {
+      "name" : "Histoire-géographie",
+      "number_marks" : 3,
+      "begins_to" : 6
+    },
+    {
+      "name" : "Physique",
+      "number_marks" : 3,
+      "begins_to" : 5
+    },
+    {
+      "name" : "Sciences naturelles",
+      "number_marks" : 3,
+      "begins_to" : 6
+    },
+    {
+      "name" : "Arts",
+      "number_marks" : 3,
+      "begins_to" : 6
+    },
+    {
+      "name" : "Musique",
+      "number_marks" : 2,
+      "begins_to" : 6
+    },
+    {
+      "name" : "Sport",
+      "number_marks" : 2,
+      "begins_to" : 6
+    },
+    {
+      "name" : "Langue vivante",
+      "number_marks" : 3,
+      "begins_to" : 5
+    }
+  ],
+  "optional_subjects" : [
+    {
+      "name" : "Latin",
+      "number_marks" : 3,
+      "begins_to" : 6
+    },
+    {
+      "name" : "Grec",
+      "number_marks" : 3,
+      "begins_to" : 6
+    },
+    {
+      "name" : "Anglais avance",
+      "number_marks" : 3,
+      "begins_to" : 6
+    }
+  ]
+}
