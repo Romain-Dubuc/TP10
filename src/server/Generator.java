@@ -44,7 +44,7 @@ public class Generator {
             // Then we create and add these students to the class
             for (int cpt_2 = 0; cpt_2 < Property.getProperty("students_per_class"); cpt_2++) {
                 // We use the Faker library to create students
-                a_class.setStudent(new Student(faker.name().lastName(), faker.name().firstName()));
+                a_class.setStudent(new Student(faker.name().lastName().replaceAll("\\s+",""), faker.name().firstName().replaceAll("\\s+","")));
             }
             classes.add(a_class);
         }
